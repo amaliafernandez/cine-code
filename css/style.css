@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-root {
+:root {
     --accent-color: #ff3e3e;
     --velvet-gradient: linear-gradient(45deg, #ff3e3e, #7a0000);
     --gold-color: #d4af37;
@@ -20,3 +20,11 @@ body {
 .navbar-color-dark {
     background-color: rgba(0, 0, 0, 0.95);
 }
+
+.navbar-brand {
+    background: var(--velvet-gradient);
+    background-clip: text; /* corta el texto para que se una al color de fondo que le pusimos*/
+    -webkit-text-fill-color: transparent; /*debemos poner transparente el color de relleno para que se vea el clip*/
+
+}
+
