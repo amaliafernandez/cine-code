@@ -5,7 +5,7 @@
     --velvet-gradient: linear-gradient(45deg, #ff3e3e, #7a0000);
     --gold-color: #d4af37;
 }
-
+/* estilos generales*/
 body {
     font-family: 'montserrat', sans-serif;
     display: flex;
@@ -18,7 +18,7 @@ main{
 }
 
 
-
+/*estilos del navbar*/
 .brand-font {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2.2rem; /*cada rem equivale a 16px*/
@@ -34,4 +34,23 @@ main{
     background: var(--velvet-gradient);
     background-clip: text; /* corta el texto para que se una al color de fondo que le pusimos*/
     -webkit-text-fill-color: transparent; /*debemos poner transparente el color de relleno para que se vea el clip*/
+}
+
+/*estilos del carousel principal*/
+
+.img-banner {
+    height: 80vh;
+    object-fit: cover;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+filter: invert(1);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .img-banner {
+        height: 60vh;  /* Aumenta la altura en mobile */
+    }
 }
