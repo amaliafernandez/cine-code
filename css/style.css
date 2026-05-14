@@ -46,9 +46,14 @@ main{
 filter: invert(1);
 }
 
-.btn-velvet{
+.btn-velvet {
     background: var(--velvet-gradient);
     border: none;
+}
+
+.btn-outline-light:hover {
+    background-color: var(--gold-color);
+    cursor: pointer;
 }
 
 
@@ -56,5 +61,22 @@ filter: invert(1);
 @media (max-width: 768px) {
     .img-banner {
         height: 60vh;  /* Aumenta la altura en mobile */
+    }
+}
+@media (max-width: 768px) {
+    .carousel-caption {
+        padding: 1.5rem 1rem !important;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.3rem !important;
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem !important;
+    }
+
+    .carousel-caption .btn {
+        font-size: 0.8rem !important;
     }
 }
