@@ -22,7 +22,7 @@ main{
 .brand-font {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 2.2rem; /*cada rem equivale a 16px*/
-    letter-spacing: 4px; /* para espaciar las letras*/
+    letter-spacing: 4px; /* para espaciar las letras*
     /*word-spacing: 10px; para separar palabras*/
 }
 
