@@ -46,6 +46,10 @@ main{
 filter: invert(1);
 }
 
+.btn-velvet{
+    background: var(--velvet-gradient);
+    border: none;
+}
 
 
 
